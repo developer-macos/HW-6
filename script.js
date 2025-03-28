@@ -1,11 +1,10 @@
-//1
+
 let counter = 0;
 while (counter < 10) {
     console.log(counter)
     counter += 1;
 }
 
-//2
 let counternew = 0;
 for (let index = 0; index < 10; index++) {
     counternew += 1;
@@ -15,7 +14,6 @@ for (let index = 0; index < 10; index++) {
     console.log(counternew);
 }
 
-//3
 let multy = 7;
 let multy2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let total = 0;
@@ -24,7 +22,7 @@ for (let index = 0; index < multy2.length; index++) {
     console.log(total * multy);
 }
 
-//4
+
 let numEnter = prompt("Enter a number greater than 100");
 numEnter = parseInt(numEnter);
 
@@ -36,7 +34,7 @@ while (numEnter <= 100) {
 
 console.log("Valid number");
 
-//5
+
 let cratNum = 0;
 while (cratNum < 20) {
     cratNum += 1;
